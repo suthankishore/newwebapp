@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <style>
+    div img{
+        width:50px;
+        height:50px;
+        border-radius:50%;
+    }
+    div{
+        border: 5px  solid  red;
+        width:300px;
+        height:300px;
+        padding:20px;
+        margin:auto;
+        text-align:center;
+        border-radius:20px;
+        display:block;
+
+    }
+    div:hover{
+        border-color:blue;
+    }
+    img:hover{
+        width: 80px;
+        height: 80px;
+
+    }
+    input:hover{
+        background-color:green;
+        
+    }
+    input:active{
+        background-color: orange;
+    }
+    input{
+    cursor: pointer;
+}
+    ul{
+    }
+    .parent{
+        width:400px;
+        height:300px;
+        border:3px  solid  black;
+        position: 
+        relative;
+    }
+    .child{
+
+        width:100px;
+        height:100px;
+        background-color: red;
+        position: absolute;
+        top:0px;
+        right:0px;
+     } 
+     .chat{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.notification{
+    width: 200px;
+    height:150px;
+    border:3px solid  black;
+    position: relative;
+}
+span{
+    background-color: red;
+color: white;
+position: absolute;
+top: 0;
+right: 0;
+z-index: 2;
+}
+     </style>
+<body>
+    <div>
+        <img src="/profile.png" alt="">
+        <h2>suthan k</h2>
+        <p> Python Full stack Developer</p>    
+        <input type="button" value="contact   me">
+        
+    </div>
+
+    <ul>
+    <li>Python</li>
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
+<div class="parent">
+    <div class="child">Child</div>
+</div>
+
+<button class="chat">Chat</button>
+   <div>
+        <img src="/profile.png" alt="">
+        <h2>suthan k</h2>
+        <p> Python Full stack Developer</p>    
+        <input type="button" value="contact   me">
+        
+    </div>
+
+    <ul>
+    <li>Python</li>
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
+<div class="parent">
+    <div class="child">Child</div>
+</div>
+<div class="notification">
+    <h1>🔔</h1>
+    <span>3</span>
+</div>
+
+</body>
+</html>
